@@ -1,0 +1,1297 @@
+%!PS-Adobe-3.0 EPSF-3.0
+%%Creator: MATLAB, The Mathworks, Inc. Version 7.9.0.529 (R2009b). Operating System: Linux 3.1.0-1-686-pae #1 SMP Fri Dec 23 19:59:41 UTC 2011 i686.
+%%Title: /home/jtalar/339/intro/final/devivative.eps
+%%CreationDate: 01/14/2014  15:04:56
+%%DocumentNeededFonts: Helvetica
+%%DocumentProcessColors: Cyan Magenta Yellow Black
+%%LanguageLevel: 2
+%%Pages: 1
+%%BoundingBox:  -186   136   798   655
+%%EndComments
+
+%%BeginProlog
+% MathWorks dictionary
+/MathWorks 160 dict begin
+% definition operators
+/bdef {bind def} bind def
+/ldef {load def} bind def
+/xdef {exch def} bdef
+/xstore {exch store} bdef
+% operator abbreviations
+/c  /clip ldef
+/cc /concat ldef
+/cp /closepath ldef
+/gr /grestore ldef
+/gs /gsave ldef
+/mt /moveto ldef
+/np /newpath ldef
+/cm /currentmatrix ldef
+/sm /setmatrix ldef
+/rm /rmoveto ldef
+/rl /rlineto ldef
+/s {show newpath} bdef
+/sc {setcmykcolor} bdef
+/sr /setrgbcolor ldef
+/sg /setgray ldef
+/w /setlinewidth ldef
+/j /setlinejoin ldef
+/cap /setlinecap ldef
+/rc {rectclip} bdef
+/rf {rectfill} bdef
+% page state control
+/pgsv () def
+/bpage {/pgsv save def} bdef
+/epage {pgsv restore} bdef
+/bplot /gsave ldef
+/eplot {stroke grestore} bdef
+% orientation switch
+/portraitMode 0 def /landscapeMode 1 def /rotateMode 2 def
+% coordinate system mappings
+/dpi2point 0 def
+% font control
+/FontSize 0 def
+/FMS {/FontSize xstore findfont [FontSize 0 0 FontSize neg 0 0]
+  makefont setfont} bdef
+/reencode {exch dup where {pop load} {pop StandardEncoding} ifelse
+  exch dup 3 1 roll findfont dup length dict begin
+  { 1 index /FID ne {def}{pop pop} ifelse } forall
+  /Encoding exch def currentdict end definefont pop} bdef
+/isroman {findfont /CharStrings get /Agrave known} bdef
+/FMSR {3 1 roll 1 index dup isroman {reencode} {pop pop} ifelse
+  exch FMS} bdef
+/csm {1 dpi2point div -1 dpi2point div scale neg translate
+ dup landscapeMode eq {pop -90 rotate}
+  {rotateMode eq {90 rotate} if} ifelse} bdef
+% line types: solid, dotted, dashed, dotdash
+/SO { [] 0 setdash } bdef
+/DO { [.5 dpi2point mul 4 dpi2point mul] 0 setdash } bdef
+/DA { [6 dpi2point mul] 0 setdash } bdef
+/DD { [.5 dpi2point mul 4 dpi2point mul 6 dpi2point mul 4
+  dpi2point mul] 0 setdash } bdef
+% macros for lines and objects
+/L {lineto stroke} bdef
+/MP {3 1 roll moveto 1 sub {rlineto} repeat} bdef
+/AP {{rlineto} repeat} bdef
+/PDlw -1 def
+/W {/PDlw currentlinewidth def setlinewidth} def
+/PP {closepath eofill} bdef
+/DP {closepath stroke} bdef
+/MR {4 -2 roll moveto dup  0 exch rlineto exch 0 rlineto
+  neg 0 exch rlineto closepath} bdef
+/FR {MR stroke} bdef
+/PR {MR fill} bdef
+/L1i {{currentfile picstr readhexstring pop} image} bdef
+/tMatrix matrix def
+/MakeOval {newpath tMatrix currentmatrix pop translate scale
+0 0 1 0 360 arc tMatrix setmatrix} bdef
+/FO {MakeOval stroke} bdef
+/PO {MakeOval fill} bdef
+/PD {currentlinewidth 2 div 0 360 arc fill
+   PDlw -1 eq not {PDlw w /PDlw -1 def} if} def
+/FA {newpath tMatrix currentmatrix pop translate scale
+  0 0 1 5 -2 roll arc tMatrix setmatrix stroke} bdef
+/PA {newpath tMatrix currentmatrix pop	translate 0 0 moveto scale
+  0 0 1 5 -2 roll arc closepath tMatrix setmatrix fill} bdef
+/FAn {newpath tMatrix currentmatrix pop translate scale
+  0 0 1 5 -2 roll arcn tMatrix setmatrix stroke} bdef
+/PAn {newpath tMatrix currentmatrix pop translate 0 0 moveto scale
+  0 0 1 5 -2 roll arcn closepath tMatrix setmatrix fill} bdef
+/vradius 0 def /hradius 0 def /lry 0 def
+/lrx 0 def /uly 0 def /ulx 0 def /rad 0 def
+/MRR {/vradius xdef /hradius xdef /lry xdef /lrx xdef /uly xdef
+  /ulx xdef newpath tMatrix currentmatrix pop ulx hradius add uly
+  vradius add translate hradius vradius scale 0 0 1 180 270 arc 
+  tMatrix setmatrix lrx hradius sub uly vradius add translate
+  hradius vradius scale 0 0 1 270 360 arc tMatrix setmatrix
+  lrx hradius sub lry vradius sub translate hradius vradius scale
+  0 0 1 0 90 arc tMatrix setmatrix ulx hradius add lry vradius sub
+  translate hradius vradius scale 0 0 1 90 180 arc tMatrix setmatrix
+  closepath} bdef
+/FRR {MRR stroke } bdef
+/PRR {MRR fill } bdef
+/MlrRR {/lry xdef /lrx xdef /uly xdef /ulx xdef /rad lry uly sub 2 div def
+  newpath tMatrix currentmatrix pop ulx rad add uly rad add translate
+  rad rad scale 0 0 1 90 270 arc tMatrix setmatrix lrx rad sub lry rad
+  sub translate rad rad scale 0 0 1 270 90 arc tMatrix setmatrix
+  closepath} bdef
+/FlrRR {MlrRR stroke } bdef
+/PlrRR {MlrRR fill } bdef
+/MtbRR {/lry xdef /lrx xdef /uly xdef /ulx xdef /rad lrx ulx sub 2 div def
+  newpath tMatrix currentmatrix pop ulx rad add uly rad add translate
+  rad rad scale 0 0 1 180 360 arc tMatrix setmatrix lrx rad sub lry rad
+  sub translate rad rad scale 0 0 1 0 180 arc tMatrix setmatrix
+  closepath} bdef
+/FtbRR {MtbRR stroke } bdef
+/PtbRR {MtbRR fill } bdef
+/stri 6 array def /dtri 6 array def
+/smat 6 array def /dmat 6 array def
+/tmat1 6 array def /tmat2 6 array def /dif 3 array def
+/asub {/ind2 exch def /ind1 exch def dup dup
+  ind1 get exch ind2 get sub exch } bdef
+/tri_to_matrix {
+  2 0 asub 3 1 asub 4 0 asub 5 1 asub
+  dup 0 get exch 1 get 7 -1 roll astore } bdef
+/compute_transform {
+  dmat dtri tri_to_matrix tmat1 invertmatrix 
+  smat stri tri_to_matrix tmat2 concatmatrix } bdef
+/ds {stri astore pop} bdef
+/dt {dtri astore pop} bdef
+/db {2 copy /cols xdef /rows xdef mul dup 3 mul string
+  currentfile 
+  3 index 0 eq {/ASCIIHexDecode filter}
+  {/ASCII85Decode filter 3 index 2 eq {/RunLengthDecode filter} if }
+  ifelse exch readstring pop
+  dup 0 3 index getinterval /rbmap xdef
+  dup 2 index dup getinterval /gbmap xdef
+  1 index dup 2 mul exch getinterval /bbmap xdef pop pop}bdef
+/it {gs np dtri aload pop moveto lineto lineto cp c
+  cols rows 8 compute_transform 
+  rbmap gbmap bbmap true 3 colorimage gr}bdef
+/il {newpath moveto lineto stroke}bdef
+currentdict end def
+%%EndProlog
+
+%%BeginSetup
+MathWorks begin
+
+0 cap
+
+end
+%%EndSetup
+
+%%Page: 1 1
+%%BeginPageSetup
+%%PageBoundingBox:  -186   136   798   655
+MathWorks begin
+bpage
+%%EndPageSetup
+
+%%BeginObject: obj1
+bplot
+
+/dpi2point 12 def
+portraitMode -2232 7860 csm
+
+    0     0 11816  6221 rc
+85 dict begin %Colortable dictionary
+/c0 { 0.000000 0.000000 0.000000 sr} bdef
+/c1 { 1.000000 1.000000 1.000000 sr} bdef
+/c2 { 0.900000 0.000000 0.000000 sr} bdef
+/c3 { 0.000000 0.820000 0.000000 sr} bdef
+/c4 { 0.000000 0.000000 0.800000 sr} bdef
+/c5 { 0.910000 0.820000 0.320000 sr} bdef
+/c6 { 1.000000 0.260000 0.820000 sr} bdef
+/c7 { 0.000000 0.820000 0.820000 sr} bdef
+c0
+1 j
+1 sg
+   0    0 11817 6222 rf
+6 w
+0 5070 9157 0 0 -5070 1536 5537 4 MP
+PP
+-9157 0 0 5070 9157 0 0 -5070 1536 5537 5 MP stroke
+4 w
+DO
+SO
+6 w
+0 sg
+1536 5537 mt 10693 5537 L
+1536  467 mt 10693  467 L
+1536 5537 mt 1536  467 L
+10693 5537 mt 10693  467 L
+1536 5537 mt 10693 5537 L
+1536 5537 mt 1536  467 L
+1536 5537 mt 1536 5445 L
+1536  467 mt 1536  558 L
+%%IncludeResource: font Helvetica
+/Helvetica /ISOLatin1Encoding 120 FMSR
+
+1350 5682 mt 
+(-0.02) s
+3062 5537 mt 3062 5445 L
+3062  467 mt 3062  558 L
+3029 5682 mt 
+(0) s
+4588 5537 mt 4588 5445 L
+4588  467 mt 4588  558 L
+4472 5682 mt 
+(0.02) s
+6114 5537 mt 6114 5445 L
+6114  467 mt 6114  558 L
+5998 5682 mt 
+(0.04) s
+7640 5537 mt 7640 5445 L
+7640  467 mt 7640  558 L
+7524 5682 mt 
+(0.06) s
+9166 5537 mt 9166 5445 L
+9166  467 mt 9166  558 L
+9050 5682 mt 
+(0.08) s
+10693 5537 mt 10693 5445 L
+10693  467 mt 10693  558 L
+10610 5682 mt 
+(0.1) s
+1536 5537 mt 1627 5537 L
+10693 5537 mt 10601 5537 L
+1231 5581 mt 
+(-800) s
+1536 4903 mt 1627 4903 L
+10693 4903 mt 10601 4903 L
+1231 4947 mt 
+(-600) s
+1536 4269 mt 1627 4269 L
+10693 4269 mt 10601 4269 L
+1231 4313 mt 
+(-400) s
+1536 3635 mt 1627 3635 L
+10693 3635 mt 10601 3635 L
+1231 3679 mt 
+(-200) s
+1536 3002 mt 1627 3002 L
+10693 3002 mt 10601 3002 L
+1435 3046 mt 
+(0) s
+1536 2368 mt 1627 2368 L
+10693 2368 mt 10601 2368 L
+1301 2412 mt 
+(200) s
+1536 1734 mt 1627 1734 L
+10693 1734 mt 10601 1734 L
+1301 1778 mt 
+(400) s
+1536 1100 mt 1627 1100 L
+10693 1100 mt 10601 1100 L
+1301 1144 mt 
+(600) s
+1536  467 mt 1627  467 L
+10693  467 mt 10601  467 L
+1301  511 mt 
+(800) s
+1536 5537 mt 10693 5537 L
+1536  467 mt 10693  467 L
+1536 5537 mt 1536  467 L
+10693 5537 mt 10693  467 L
+gs 1536 467 9158 5071 rc
+/c8 { 0.000000 0.000000 1.000000 sr} bdef
+c8
+0 538 3062 1627 2 MP stroke
+151 0 2986 1627 2 MP stroke
+151 0 2986 2165 2 MP stroke
+0 538 3100 1653 2 MP stroke
+151 0 3024 1653 2 MP stroke
+151 0 3024 2191 2 MP stroke
+0 538 3138 962 2 MP stroke
+152 0 3062 962 2 MP stroke
+152 0 3062 1500 2 MP stroke
+0 538 3176 1955 2 MP stroke
+151 0 3101 1955 2 MP stroke
+151 0 3101 2493 2 MP stroke
+0 538 3214 2579 2 MP stroke
+151 0 3139 2579 2 MP stroke
+151 0 3139 3117 2 MP stroke
+0 538 3252 2081 2 MP stroke
+151 0 3177 2081 2 MP stroke
+151 0 3177 2619 2 MP stroke
+0 538 3291 2319 2 MP stroke
+151 0 3215 2319 2 MP stroke
+151 0 3215 2857 2 MP stroke
+0 537 3329 2344 2 MP stroke
+151 0 3253 2344 2 MP stroke
+151 0 3253 2881 2 MP stroke
+0 537 3367 1931 2 MP stroke
+151 0 3291 1931 2 MP stroke
+151 0 3291 2468 2 MP stroke
+0 538 3405 3723 2 MP stroke
+151 0 3330 3723 2 MP stroke
+151 0 3330 4261 2 MP stroke
+0 538 3443 2943 2 MP stroke
+151 0 3368 2943 2 MP stroke
+151 0 3368 3481 2 MP stroke
+0 538 3481 3966 2 MP stroke
+151 0 3406 3966 2 MP stroke
+151 0 3406 4504 2 MP stroke
+0 538 3520 3513 2 MP stroke
+151 0 3444 3513 2 MP stroke
+151 0 3444 4051 2 MP stroke
+0 537 3558 3138 2 MP stroke
+151 0 3482 3138 2 MP stroke
+151 0 3482 3675 2 MP stroke
+0 538 3596 3903 2 MP stroke
+151 0 3520 3903 2 MP stroke
+151 0 3520 4441 2 MP stroke
+0 538 3634 4171 2 MP stroke
+152 0 3558 4171 2 MP stroke
+152 0 3558 4709 2 MP stroke
+0 538 3672 4176 2 MP stroke
+151 0 3597 4176 2 MP stroke
+151 0 3597 4714 2 MP stroke
+0 538 3710 3833 2 MP stroke
+151 0 3635 3833 2 MP stroke
+151 0 3635 4371 2 MP stroke
+0 538 3748 4036 2 MP stroke
+151 0 3673 4036 2 MP stroke
+151 0 3673 4574 2 MP stroke
+0 538 3787 3152 2 MP stroke
+151 0 3711 3152 2 MP stroke
+151 0 3711 3690 2 MP stroke
+0 538 3825 4257 2 MP stroke
+151 0 3749 4257 2 MP stroke
+151 0 3749 4795 2 MP stroke
+0 537 3863 2610 2 MP stroke
+151 0 3787 2610 2 MP stroke
+151 0 3787 3147 2 MP stroke
+0 538 3901 3752 2 MP stroke
+151 0 3826 3752 2 MP stroke
+151 0 3826 4290 2 MP stroke
+0 538 3939 3366 2 MP stroke
+151 0 3864 3366 2 MP stroke
+151 0 3864 3904 2 MP stroke
+0 538 3977 2049 2 MP stroke
+151 0 3902 2049 2 MP stroke
+151 0 3902 2587 2 MP stroke
+0 538 4016 3179 2 MP stroke
+151 0 3940 3179 2 MP stroke
+151 0 3940 3717 2 MP stroke
+0 538 4054 2449 2 MP stroke
+151 0 3978 2449 2 MP stroke
+151 0 3978 2987 2 MP stroke
+0 537 4092 1502 2 MP stroke
+151 0 4016 1502 2 MP stroke
+151 0 4016 2039 2 MP stroke
+0 538 4130 2444 2 MP stroke
+152 0 4054 2444 2 MP stroke
+152 0 4054 2982 2 MP stroke
+0 538 4168 1207 2 MP stroke
+151 0 4093 1207 2 MP stroke
+151 0 4093 1745 2 MP stroke
+0 538 4206 2744 2 MP stroke
+151 0 4131 2744 2 MP stroke
+151 0 4131 3282 2 MP stroke
+0 538 4244 1273 2 MP stroke
+151 0 4169 1273 2 MP stroke
+151 0 4169 1811 2 MP stroke
+0 538 4283 1394 2 MP stroke
+151 0 4207 1394 2 MP stroke
+151 0 4207 1932 2 MP stroke
+0 538 4321 2026 2 MP stroke
+151 0 4245 2026 2 MP stroke
+151 0 4245 2564 2 MP stroke
+0 538 4359 1848 2 MP stroke
+151 0 4283 1848 2 MP stroke
+151 0 4283 2386 2 MP stroke
+0 538 4397 1179 2 MP stroke
+151 0 4322 1179 2 MP stroke
+151 0 4322 1717 2 MP stroke
+0 538 4435 1624 2 MP stroke
+151 0 4360 1624 2 MP stroke
+151 0 4360 2162 2 MP stroke
+0 538 4473 2135 2 MP stroke
+151 0 4398 2135 2 MP stroke
+151 0 4398 2673 2 MP stroke
+0 538 4512 1970 2 MP stroke
+151 0 4436 1970 2 MP stroke
+151 0 4436 2508 2 MP stroke
+0 538 4550 1698 2 MP stroke
+151 0 4474 1698 2 MP stroke
+151 0 4474 2236 2 MP stroke
+0 537 4588 2385 2 MP stroke
+151 0 4512 2385 2 MP stroke
+151 0 4512 2922 2 MP stroke
+0 538 4626 2812 2 MP stroke
+152 0 4550 2812 2 MP stroke
+152 0 4550 3350 2 MP stroke
+0 538 4664 3689 2 MP stroke
+151 0 4589 3689 2 MP stroke
+151 0 4589 4227 2 MP stroke
+0 538 4702 2397 2 MP stroke
+151 0 4627 2397 2 MP stroke
+151 0 4627 2935 2 MP stroke
+0 538 4740 3889 2 MP stroke
+151 0 4665 3889 2 MP stroke
+151 0 4665 4427 2 MP stroke
+0 538 4779 3005 2 MP stroke
+151 0 4703 3005 2 MP stroke
+151 0 4703 3543 2 MP stroke
+0 537 4817 3489 2 MP stroke
+151 0 4741 3489 2 MP stroke
+151 0 4741 4026 2 MP stroke
+0 538 4855 4600 2 MP stroke
+151 0 4779 4600 2 MP stroke
+151 0 4779 5138 2 MP stroke
+0 537 4893 3253 2 MP stroke
+151 0 4818 3253 2 MP stroke
+151 0 4818 3790 2 MP stroke
+0 538 4931 4718 2 MP stroke
+151 0 4856 4718 2 MP stroke
+151 0 4856 5256 2 MP stroke
+0 538 4969 3841 2 MP stroke
+151 0 4894 3841 2 MP stroke
+151 0 4894 4379 2 MP stroke
+0 538 5008 3775 2 MP stroke
+151 0 4932 3775 2 MP stroke
+151 0 4932 4313 2 MP stroke
+0 538 5046 3847 2 MP stroke
+151 0 4970 3847 2 MP stroke
+151 0 4970 4385 2 MP stroke
+0 538 5084 3004 2 MP stroke
+151 0 5008 3004 2 MP stroke
+151 0 5008 3542 2 MP stroke
+0 538 5122 3594 2 MP stroke
+152 0 5046 3594 2 MP stroke
+152 0 5046 4132 2 MP stroke
+0 538 5160 3063 2 MP stroke
+151 0 5085 3063 2 MP stroke
+151 0 5085 3601 2 MP stroke
+0 538 5198 3261 2 MP stroke
+151 0 5123 3261 2 MP stroke
+151 0 5123 3799 2 MP stroke
+0 538 5236 3235 2 MP stroke
+151 0 5161 3235 2 MP stroke
+151 0 5161 3773 2 MP stroke
+0 537 5275 2629 2 MP stroke
+151 0 5199 2629 2 MP stroke
+151 0 5199 3166 2 MP stroke
+0 538 5313 2996 2 MP stroke
+151 0 5237 2996 2 MP stroke
+151 0 5237 3534 2 MP stroke
+0 537 5351 2429 2 MP stroke
+151 0 5275 2429 2 MP stroke
+151 0 5275 2966 2 MP stroke
+0 538 5389 1957 2 MP stroke
+151 0 5314 1957 2 MP stroke
+151 0 5314 2495 2 MP stroke
+0 538 5427 1723 2 MP stroke
+151 0 5352 1723 2 MP stroke
+151 0 5352 2261 2 MP stroke
+0 538 5465 1386 2 MP stroke
+151 0 5390 1386 2 MP stroke
+151 0 5390 1924 2 MP stroke
+0 537 5504 1878 2 MP stroke
+151 0 5428 1878 2 MP stroke
+151 0 5428 2415 2 MP stroke
+0 538 5542 1582 2 MP stroke
+151 0 5466 1582 2 MP stroke
+151 0 5466 2120 2 MP stroke
+0 538 5580 1699 2 MP stroke
+151 0 5504 1699 2 MP stroke
+151 0 5504 2237 2 MP stroke
+0 538 5618 1241 2 MP stroke
+152 0 5542 1241 2 MP stroke
+152 0 5542 1779 2 MP stroke
+0 538 5656 1805 2 MP stroke
+151 0 5581 1805 2 MP stroke
+151 0 5581 2343 2 MP stroke
+0 538 5694 1545 2 MP stroke
+151 0 5619 1545 2 MP stroke
+151 0 5619 2083 2 MP stroke
+0 538 5732 1904 2 MP stroke
+151 0 5657 1904 2 MP stroke
+151 0 5657 2442 2 MP stroke
+0 538 5771 1985 2 MP stroke
+151 0 5695 1985 2 MP stroke
+151 0 5695 2523 2 MP stroke
+0 537 5809 2148 2 MP stroke
+151 0 5733 2148 2 MP stroke
+151 0 5733 2685 2 MP stroke
+0 538 5847 1963 2 MP stroke
+151 0 5771 1963 2 MP stroke
+151 0 5771 2501 2 MP stroke
+0 538 5885 2872 2 MP stroke
+151 0 5810 2872 2 MP stroke
+151 0 5810 3410 2 MP stroke
+0 538 5923 3383 2 MP stroke
+151 0 5848 3383 2 MP stroke
+151 0 5848 3921 2 MP stroke
+0 538 5961 2188 2 MP stroke
+151 0 5886 2188 2 MP stroke
+151 0 5886 2726 2 MP stroke
+0 538 6000 3273 2 MP stroke
+151 0 5924 3273 2 MP stroke
+151 0 5924 3811 2 MP stroke
+0 537 6038 3677 2 MP stroke
+151 0 5962 3677 2 MP stroke
+151 0 5962 4214 2 MP stroke
+0 538 6076 3891 2 MP stroke
+151 0 6000 3891 2 MP stroke
+151 0 6000 4429 2 MP stroke
+0 538 6114 3905 2 MP stroke
+152 0 6038 3905 2 MP stroke
+152 0 6038 4443 2 MP stroke
+0 538 6152 3993 2 MP stroke
+151 0 6077 3993 2 MP stroke
+151 0 6077 4531 2 MP stroke
+0 537 6190 3775 2 MP stroke
+151 0 6115 3775 2 MP stroke
+151 0 6115 4312 2 MP stroke
+0 537 6228 3492 2 MP stroke
+151 0 6153 3492 2 MP stroke
+151 0 6153 4029 2 MP stroke
+0 537 6267 4263 2 MP stroke
+151 0 6191 4263 2 MP stroke
+151 0 6191 4800 2 MP stroke
+0 538 6305 3624 2 MP stroke
+151 0 6229 3624 2 MP stroke
+151 0 6229 4162 2 MP stroke
+0 538 6343 3965 2 MP stroke
+151 0 6267 3965 2 MP stroke
+151 0 6267 4503 2 MP stroke
+0 538 6381 3819 2 MP stroke
+151 0 6306 3819 2 MP stroke
+151 0 6306 4357 2 MP stroke
+0 538 6419 2852 2 MP stroke
+151 0 6344 2852 2 MP stroke
+151 0 6344 3390 2 MP stroke
+0 538 6457 2880 2 MP stroke
+151 0 6382 2880 2 MP stroke
+151 0 6382 3418 2 MP stroke
+0 538 6496 3512 2 MP stroke
+151 0 6420 3512 2 MP stroke
+151 0 6420 4050 2 MP stroke
+0 538 6534 2881 2 MP stroke
+151 0 6458 2881 2 MP stroke
+151 0 6458 3419 2 MP stroke
+0 538 6572 2339 2 MP stroke
+151 0 6496 2339 2 MP stroke
+151 0 6496 2877 2 MP stroke
+0 537 6610 2778 2 MP stroke
+152 0 6534 2778 2 MP stroke
+152 0 6534 3315 2 MP stroke
+0 538 6648 1862 2 MP stroke
+151 0 6573 1862 2 MP stroke
+151 0 6573 2400 2 MP stroke
+0 538 6686 1620 2 MP stroke
+151 0 6611 1620 2 MP stroke
+151 0 6611 2158 2 MP stroke
+0 538 6724 1489 2 MP stroke
+151 0 6649 1489 2 MP stroke
+151 0 6649 2027 2 MP stroke
+0 538 6763 2396 2 MP stroke
+151 0 6687 2396 2 MP stroke
+151 0 6687 2934 2 MP stroke
+0 538 6801 1201 2 MP stroke
+151 0 6725 1201 2 MP stroke
+151 0 6725 1739 2 MP stroke
+0 538 6839 1778 2 MP stroke
+151 0 6763 1778 2 MP stroke
+151 0 6763 2316 2 MP stroke
+0 538 6877 1781 2 MP stroke
+151 0 6802 1781 2 MP stroke
+151 0 6802 2319 2 MP stroke
+0 538 6915 1743 2 MP stroke
+151 0 6840 1743 2 MP stroke
+151 0 6840 2281 2 MP stroke
+0 538 6953 1348 2 MP stroke
+151 0 6878 1348 2 MP stroke
+151 0 6878 1886 2 MP stroke
+0 538 6992 1281 2 MP stroke
+151 0 6916 1281 2 MP stroke
+151 0 6916 1819 2 MP stroke
+0 538 7030 2672 2 MP stroke
+151 0 6954 2672 2 MP stroke
+151 0 6954 3210 2 MP stroke
+0 538 7068 1964 2 MP stroke
+151 0 6992 1964 2 MP stroke
+151 0 6992 2502 2 MP stroke
+0 538 7106 2051 2 MP stroke
+152 0 7030 2051 2 MP stroke
+152 0 7030 2589 2 MP stroke
+0 538 7144 2483 2 MP stroke
+151 0 7069 2483 2 MP stroke
+151 0 7069 3021 2 MP stroke
+0 538 7182 3320 2 MP stroke
+151 0 7107 3320 2 MP stroke
+151 0 7107 3858 2 MP stroke
+0 538 7220 2447 2 MP stroke
+151 0 7145 2447 2 MP stroke
+151 0 7145 2985 2 MP stroke
+0 538 7259 3797 2 MP stroke
+151 0 7183 3797 2 MP stroke
+151 0 7183 4335 2 MP stroke
+0 538 7297 3041 2 MP stroke
+151 0 7221 3041 2 MP stroke
+151 0 7221 3579 2 MP stroke
+0 538 7335 3085 2 MP stroke
+151 0 7259 3085 2 MP stroke
+151 0 7259 3623 2 MP stroke
+0 538 7373 3803 2 MP stroke
+151 0 7298 3803 2 MP stroke
+151 0 7298 4341 2 MP stroke
+0 537 7411 4465 2 MP stroke
+151 0 7336 4465 2 MP stroke
+151 0 7336 5002 2 MP stroke
+0 538 7449 3795 2 MP stroke
+151 0 7374 3795 2 MP stroke
+151 0 7374 4333 2 MP stroke
+0 538 7488 4143 2 MP stroke
+151 0 7412 4143 2 MP stroke
+151 0 7412 4681 2 MP stroke
+0 538 7526 3100 2 MP stroke
+151 0 7450 3100 2 MP stroke
+151 0 7450 3638 2 MP stroke
+0 537 7564 3854 2 MP stroke
+151 0 7488 3854 2 MP stroke
+151 0 7488 4391 2 MP stroke
+0 537 7602 3519 2 MP stroke
+152 0 7526 3519 2 MP stroke
+152 0 7526 4056 2 MP stroke
+0 538 7640 3751 2 MP stroke
+151 0 7565 3751 2 MP stroke
+151 0 7565 4289 2 MP stroke
+0 538 7678 4105 2 MP stroke
+151 0 7603 4105 2 MP stroke
+151 0 7603 4643 2 MP stroke
+0 537 7716 2661 2 MP stroke
+151 0 7641 2661 2 MP stroke
+151 0 7641 3198 2 MP stroke
+0 538 7755 3457 2 MP stroke
+151 0 7679 3457 2 MP stroke
+151 0 7679 3995 2 MP stroke
+0 537 7793 3306 2 MP stroke
+151 0 7717 3306 2 MP stroke
+151 0 7717 3843 2 MP stroke
+0 538 7831 2355 2 MP stroke
+151 0 7755 2355 2 MP stroke
+151 0 7755 2893 2 MP stroke
+0 538 7869 1874 2 MP stroke
+151 0 7794 1874 2 MP stroke
+151 0 7794 2412 2 MP stroke
+0 538 7907 3007 2 MP stroke
+151 0 7832 3007 2 MP stroke
+151 0 7832 3545 2 MP stroke
+0 538 7945 1834 2 MP stroke
+151 0 7870 1834 2 MP stroke
+151 0 7870 2372 2 MP stroke
+0 537 7984 1226 2 MP stroke
+151 0 7908 1226 2 MP stroke
+151 0 7908 1763 2 MP stroke
+0 537 8022 1626 2 MP stroke
+151 0 7946 1626 2 MP stroke
+151 0 7946 2163 2 MP stroke
+0 537 8060 1756 2 MP stroke
+151 0 7984 1756 2 MP stroke
+151 0 7984 2293 2 MP stroke
+0 538 8098 1769 2 MP stroke
+152 0 8022 1769 2 MP stroke
+152 0 8022 2307 2 MP stroke
+0 538 8136 1453 2 MP stroke
+151 0 8061 1453 2 MP stroke
+151 0 8061 1991 2 MP stroke
+0 538 8174 1617 2 MP stroke
+151 0 8099 1617 2 MP stroke
+151 0 8099 2155 2 MP stroke
+0 538 8212 1966 2 MP stroke
+151 0 8137 1966 2 MP stroke
+151 0 8137 2504 2 MP stroke
+0 538 8251 1090 2 MP stroke
+151 0 8175 1090 2 MP stroke
+151 0 8175 1628 2 MP stroke
+0 538 8289 1986 2 MP stroke
+151 0 8213 1986 2 MP stroke
+151 0 8213 2524 2 MP stroke
+0 538 8327 2813 2 MP stroke
+151 0 8251 2813 2 MP stroke
+151 0 8251 3351 2 MP stroke
+0 537 8365 2229 2 MP stroke
+151 0 8290 2229 2 MP stroke
+151 0 8290 2766 2 MP stroke
+0 537 8403 2052 2 MP stroke
+151 0 8328 2052 2 MP stroke
+151 0 8328 2589 2 MP stroke
+0 538 8441 2727 2 MP stroke
+151 0 8366 2727 2 MP stroke
+151 0 8366 3265 2 MP stroke
+0 538 8480 2850 2 MP stroke
+151 0 8404 2850 2 MP stroke
+151 0 8404 3388 2 MP stroke
+0 538 8518 3689 2 MP stroke
+151 0 8442 3689 2 MP stroke
+151 0 8442 4227 2 MP stroke
+0 538 8556 2631 2 MP stroke
+151 0 8480 2631 2 MP stroke
+151 0 8480 3169 2 MP stroke
+0 538 8594 3803 2 MP stroke
+152 0 8518 3803 2 MP stroke
+152 0 8518 4341 2 MP stroke
+0 538 8632 3737 2 MP stroke
+151 0 8557 3737 2 MP stroke
+151 0 8557 4275 2 MP stroke
+0 538 8670 3285 2 MP stroke
+151 0 8595 3285 2 MP stroke
+151 0 8595 3823 2 MP stroke
+0 538 8708 3750 2 MP stroke
+151 0 8633 3750 2 MP stroke
+151 0 8633 4288 2 MP stroke
+0 538 8747 4133 2 MP stroke
+151 0 8671 4133 2 MP stroke
+151 0 8671 4671 2 MP stroke
+0 538 8785 3872 2 MP stroke
+151 0 8709 3872 2 MP stroke
+151 0 8709 4410 2 MP stroke
+0 538 8823 4566 2 MP stroke
+151 0 8747 4566 2 MP stroke
+151 0 8747 5104 2 MP stroke
+0 538 8861 3636 2 MP stroke
+151 0 8786 3636 2 MP stroke
+151 0 8786 4174 2 MP stroke
+0 538 8899 3376 2 MP stroke
+151 0 8824 3376 2 MP stroke
+151 0 8824 3914 2 MP stroke
+0 537 8937 3270 2 MP stroke
+151 0 8862 3270 2 MP stroke
+151 0 8862 3807 2 MP stroke
+0 538 8976 4028 2 MP stroke
+151 0 8900 4028 2 MP stroke
+151 0 8900 4566 2 MP stroke
+0 538 9014 2398 2 MP stroke
+151 0 8938 2398 2 MP stroke
+151 0 8938 2936 2 MP stroke
+0 538 9052 3673 2 MP stroke
+151 0 8976 3673 2 MP stroke
+151 0 8976 4211 2 MP stroke
+0 538 9090 1923 2 MP stroke
+152 0 9014 1923 2 MP stroke
+152 0 9014 2461 2 MP stroke
+0 538 9128 3208 2 MP stroke
+151 0 9053 3208 2 MP stroke
+151 0 9053 3746 2 MP stroke
+0 538 9166 1482 2 MP stroke
+151 0 9091 1482 2 MP stroke
+151 0 9091 2020 2 MP stroke
+0 538 9204 2389 2 MP stroke
+151 0 9129 2389 2 MP stroke
+151 0 9129 2927 2 MP stroke
+0 538 9243 2365 2 MP stroke
+151 0 9167 2365 2 MP stroke
+151 0 9167 2903 2 MP stroke
+0 538 9281 1222 2 MP stroke
+151 0 9205 1222 2 MP stroke
+151 0 9205 1760 2 MP stroke
+0 538 9319 1276 2 MP stroke
+151 0 9243 1276 2 MP stroke
+151 0 9243 1814 2 MP stroke
+0 538 9357 2036 2 MP stroke
+151 0 9282 2036 2 MP stroke
+151 0 9282 2574 2 MP stroke
+0 538 9395 1827 2 MP stroke
+151 0 9320 1827 2 MP stroke
+151 0 9320 2365 2 MP stroke
+0 537 9433 1067 2 MP stroke
+151 0 9358 1067 2 MP stroke
+151 0 9358 1604 2 MP stroke
+0 537 9472 1753 2 MP stroke
+151 0 9396 1753 2 MP stroke
+151 0 9396 2290 2 MP stroke
+0 538 9510 1732 2 MP stroke
+151 0 9434 1732 2 MP stroke
+151 0 9434 2270 2 MP stroke
+0 538 9548 1503 2 MP stroke
+151 0 9472 1503 2 MP stroke
+151 0 9472 2041 2 MP stroke
+0 538 9586 1902 2 MP stroke
+152 0 9510 1902 2 MP stroke
+152 0 9510 2440 2 MP stroke
+0 537 9624 3095 2 MP stroke
+151 0 9549 3095 2 MP stroke
+151 0 9549 3632 2 MP stroke
+0 538 9662 2107 2 MP stroke
+151 0 9587 2107 2 MP stroke
+151 0 9587 2645 2 MP stroke
+0 538 9700 2569 2 MP stroke
+151 0 9625 2569 2 MP stroke
+151 0 9625 3107 2 MP stroke
+0 538 9739 2610 2 MP stroke
+151 0 9663 2610 2 MP stroke
+151 0 9663 3148 2 MP stroke
+0 538 9777 3102 2 MP stroke
+151 0 9701 3102 2 MP stroke
+151 0 9701 3640 2 MP stroke
+0 538 9815 3795 2 MP stroke
+151 0 9739 3795 2 MP stroke
+151 0 9739 4333 2 MP stroke
+0 538 9853 2794 2 MP stroke
+151 0 9778 2794 2 MP stroke
+151 0 9778 3332 2 MP stroke
+0 538 9891 4405 2 MP stroke
+151 0 9816 4405 2 MP stroke
+151 0 9816 4943 2 MP stroke
+0 538 9929 3405 2 MP stroke
+151 0 9854 3405 2 MP stroke
+151 0 9854 3943 2 MP stroke
+0 537 9968 3796 2 MP stroke
+151 0 9892 3796 2 MP stroke
+151 0 9892 4333 2 MP stroke
+0 537 10006 4035 2 MP stroke
+151 0 9930 4035 2 MP stroke
+151 0 9930 4572 2 MP stroke
+0 538 10044 3678 2 MP stroke
+151 0 9968 3678 2 MP stroke
+151 0 9968 4216 2 MP stroke
+0 537 10082 4011 2 MP stroke
+152 0 10006 4011 2 MP stroke
+152 0 10006 4548 2 MP stroke
+0 538 10120 3981 2 MP stroke
+151 0 10045 3981 2 MP stroke
+151 0 10045 4519 2 MP stroke
+0 538 10158 3170 2 MP stroke
+151 0 10083 3170 2 MP stroke
+151 0 10083 3708 2 MP stroke
+0 538 10196 4224 2 MP stroke
+151 0 10121 4224 2 MP stroke
+151 0 10121 4762 2 MP stroke
+0 538 10235 2903 2 MP stroke
+151 0 10159 2903 2 MP stroke
+151 0 10159 3441 2 MP stroke
+0 537 10273 3897 2 MP stroke
+151 0 10197 3897 2 MP stroke
+151 0 10197 4434 2 MP stroke
+0 538 10311 2985 2 MP stroke
+152 0 10235 2985 2 MP stroke
+152 0 10235 3523 2 MP stroke
+0 538 10349 2244 2 MP stroke
+151 0 10274 2244 2 MP stroke
+151 0 10274 2782 2 MP stroke
+0 538 10387 2274 2 MP stroke
+151 0 10312 2274 2 MP stroke
+151 0 10312 2812 2 MP stroke
+0 538 10425 2666 2 MP stroke
+151 0 10350 2666 2 MP stroke
+151 0 10350 3204 2 MP stroke
+0 538 10464 2574 2 MP stroke
+151 0 10388 2574 2 MP stroke
+151 0 10388 3112 2 MP stroke
+0 538 10502 1602 2 MP stroke
+151 0 10426 1602 2 MP stroke
+151 0 10426 2140 2 MP stroke
+0 538 10540 1653 2 MP stroke
+151 0 10464 1653 2 MP stroke
+151 0 10464 2191 2 MP stroke
+0 538 10578 1339 2 MP stroke
+152 0 10502 1339 2 MP stroke
+152 0 10502 1877 2 MP stroke
+0 537 10616 2108 2 MP stroke
+151 0 10541 2108 2 MP stroke
+151 0 10541 2645 2 MP stroke
+gr
+
+c8
+3026 1896 mt 3098 1896 L
+3062 1860 mt 3062 1932 L
+3064 1922 mt 3136 1922 L
+3100 1886 mt 3100 1958 L
+3102 1231 mt 3174 1231 L
+3138 1195 mt 3138 1267 L
+3140 2224 mt 3212 2224 L
+3176 2188 mt 3176 2260 L
+3178 2848 mt 3250 2848 L
+3214 2812 mt 3214 2884 L
+3216 2350 mt 3288 2350 L
+3252 2314 mt 3252 2386 L
+3255 2588 mt 3327 2588 L
+3291 2552 mt 3291 2624 L
+3293 2612 mt 3365 2612 L
+3329 2576 mt 3329 2648 L
+3331 2200 mt 3403 2200 L
+3367 2164 mt 3367 2236 L
+3369 3992 mt 3441 3992 L
+3405 3956 mt 3405 4028 L
+3407 3212 mt 3479 3212 L
+3443 3176 mt 3443 3248 L
+3445 4235 mt 3517 4235 L
+3481 4199 mt 3481 4271 L
+3484 3782 mt 3556 3782 L
+3520 3746 mt 3520 3818 L
+3522 3406 mt 3594 3406 L
+3558 3370 mt 3558 3442 L
+3560 4172 mt 3632 4172 L
+3596 4136 mt 3596 4208 L
+3598 4440 mt 3670 4440 L
+3634 4404 mt 3634 4476 L
+3636 4445 mt 3708 4445 L
+3672 4409 mt 3672 4481 L
+3674 4102 mt 3746 4102 L
+3710 4066 mt 3710 4138 L
+3712 4305 mt 3784 4305 L
+3748 4269 mt 3748 4341 L
+3751 3421 mt 3823 3421 L
+3787 3385 mt 3787 3457 L
+3789 4526 mt 3861 4526 L
+3825 4490 mt 3825 4562 L
+3827 2879 mt 3899 2879 L
+3863 2843 mt 3863 2915 L
+3865 4021 mt 3937 4021 L
+3901 3985 mt 3901 4057 L
+3903 3635 mt 3975 3635 L
+3939 3599 mt 3939 3671 L
+3941 2318 mt 4013 2318 L
+3977 2282 mt 3977 2354 L
+3980 3448 mt 4052 3448 L
+4016 3412 mt 4016 3484 L
+4018 2718 mt 4090 2718 L
+4054 2682 mt 4054 2754 L
+4056 1771 mt 4128 1771 L
+4092 1735 mt 4092 1807 L
+4094 2713 mt 4166 2713 L
+4130 2677 mt 4130 2749 L
+4132 1476 mt 4204 1476 L
+4168 1440 mt 4168 1512 L
+4170 3013 mt 4242 3013 L
+4206 2977 mt 4206 3049 L
+4208 1542 mt 4280 1542 L
+4244 1506 mt 4244 1578 L
+4247 1663 mt 4319 1663 L
+4283 1627 mt 4283 1699 L
+4285 2295 mt 4357 2295 L
+4321 2259 mt 4321 2331 L
+4323 2117 mt 4395 2117 L
+4359 2081 mt 4359 2153 L
+4361 1448 mt 4433 1448 L
+4397 1412 mt 4397 1484 L
+4399 1893 mt 4471 1893 L
+4435 1857 mt 4435 1929 L
+4437 2404 mt 4509 2404 L
+4473 2368 mt 4473 2440 L
+4476 2239 mt 4548 2239 L
+4512 2203 mt 4512 2275 L
+4514 1967 mt 4586 1967 L
+4550 1931 mt 4550 2003 L
+4552 2654 mt 4624 2654 L
+4588 2618 mt 4588 2690 L
+4590 3081 mt 4662 3081 L
+4626 3045 mt 4626 3117 L
+4628 3958 mt 4700 3958 L
+4664 3922 mt 4664 3994 L
+4666 2666 mt 4738 2666 L
+4702 2630 mt 4702 2702 L
+4704 4158 mt 4776 4158 L
+4740 4122 mt 4740 4194 L
+4743 3274 mt 4815 3274 L
+4779 3238 mt 4779 3310 L
+4781 3758 mt 4853 3758 L
+4817 3722 mt 4817 3794 L
+4819 4869 mt 4891 4869 L
+4855 4833 mt 4855 4905 L
+4857 3521 mt 4929 3521 L
+4893 3485 mt 4893 3557 L
+4895 4987 mt 4967 4987 L
+4931 4951 mt 4931 5023 L
+4933 4110 mt 5005 4110 L
+4969 4074 mt 4969 4146 L
+4972 4044 mt 5044 4044 L
+5008 4008 mt 5008 4080 L
+5010 4116 mt 5082 4116 L
+5046 4080 mt 5046 4152 L
+5048 3273 mt 5120 3273 L
+5084 3237 mt 5084 3309 L
+5086 3863 mt 5158 3863 L
+5122 3827 mt 5122 3899 L
+5124 3332 mt 5196 3332 L
+5160 3296 mt 5160 3368 L
+5162 3530 mt 5234 3530 L
+5198 3494 mt 5198 3566 L
+5200 3504 mt 5272 3504 L
+5236 3468 mt 5236 3540 L
+5239 2898 mt 5311 2898 L
+5275 2862 mt 5275 2934 L
+5277 3265 mt 5349 3265 L
+5313 3229 mt 5313 3301 L
+5315 2697 mt 5387 2697 L
+5351 2661 mt 5351 2733 L
+5353 2226 mt 5425 2226 L
+5389 2190 mt 5389 2262 L
+5391 1992 mt 5463 1992 L
+5427 1956 mt 5427 2028 L
+5429 1655 mt 5501 1655 L
+5465 1619 mt 5465 1691 L
+5468 2147 mt 5540 2147 L
+5504 2111 mt 5504 2183 L
+5506 1851 mt 5578 1851 L
+5542 1815 mt 5542 1887 L
+5544 1968 mt 5616 1968 L
+5580 1932 mt 5580 2004 L
+5582 1510 mt 5654 1510 L
+5618 1474 mt 5618 1546 L
+5620 2074 mt 5692 2074 L
+5656 2038 mt 5656 2110 L
+5658 1814 mt 5730 1814 L
+5694 1778 mt 5694 1850 L
+5696 2173 mt 5768 2173 L
+5732 2137 mt 5732 2209 L
+5735 2254 mt 5807 2254 L
+5771 2218 mt 5771 2290 L
+5773 2417 mt 5845 2417 L
+5809 2381 mt 5809 2453 L
+5811 2232 mt 5883 2232 L
+5847 2196 mt 5847 2268 L
+5849 3141 mt 5921 3141 L
+5885 3105 mt 5885 3177 L
+5887 3652 mt 5959 3652 L
+5923 3616 mt 5923 3688 L
+5925 2457 mt 5997 2457 L
+5961 2421 mt 5961 2493 L
+5964 3542 mt 6036 3542 L
+6000 3506 mt 6000 3578 L
+6002 3946 mt 6074 3946 L
+6038 3910 mt 6038 3982 L
+6040 4160 mt 6112 4160 L
+6076 4124 mt 6076 4196 L
+6078 4174 mt 6150 4174 L
+6114 4138 mt 6114 4210 L
+6116 4262 mt 6188 4262 L
+6152 4226 mt 6152 4298 L
+6154 4043 mt 6226 4043 L
+6190 4007 mt 6190 4079 L
+6192 3761 mt 6264 3761 L
+6228 3725 mt 6228 3797 L
+6231 4532 mt 6303 4532 L
+6267 4496 mt 6267 4568 L
+6269 3893 mt 6341 3893 L
+6305 3857 mt 6305 3929 L
+6307 4234 mt 6379 4234 L
+6343 4198 mt 6343 4270 L
+6345 4088 mt 6417 4088 L
+6381 4052 mt 6381 4124 L
+6383 3121 mt 6455 3121 L
+6419 3085 mt 6419 3157 L
+6421 3149 mt 6493 3149 L
+6457 3113 mt 6457 3185 L
+6460 3781 mt 6532 3781 L
+6496 3745 mt 6496 3817 L
+6498 3150 mt 6570 3150 L
+6534 3114 mt 6534 3186 L
+6536 2608 mt 6608 2608 L
+6572 2572 mt 6572 2644 L
+6574 3047 mt 6646 3047 L
+6610 3011 mt 6610 3083 L
+6612 2131 mt 6684 2131 L
+6648 2095 mt 6648 2167 L
+6650 1889 mt 6722 1889 L
+6686 1853 mt 6686 1925 L
+6688 1758 mt 6760 1758 L
+6724 1722 mt 6724 1794 L
+6727 2665 mt 6799 2665 L
+6763 2629 mt 6763 2701 L
+6765 1470 mt 6837 1470 L
+6801 1434 mt 6801 1506 L
+6803 2047 mt 6875 2047 L
+6839 2011 mt 6839 2083 L
+6841 2050 mt 6913 2050 L
+6877 2014 mt 6877 2086 L
+6879 2012 mt 6951 2012 L
+6915 1976 mt 6915 2048 L
+6917 1617 mt 6989 1617 L
+6953 1581 mt 6953 1653 L
+6956 1550 mt 7028 1550 L
+6992 1514 mt 6992 1586 L
+6994 2941 mt 7066 2941 L
+7030 2905 mt 7030 2977 L
+7032 2233 mt 7104 2233 L
+7068 2197 mt 7068 2269 L
+7070 2320 mt 7142 2320 L
+7106 2284 mt 7106 2356 L
+7108 2752 mt 7180 2752 L
+7144 2716 mt 7144 2788 L
+7146 3589 mt 7218 3589 L
+7182 3553 mt 7182 3625 L
+7184 2716 mt 7256 2716 L
+7220 2680 mt 7220 2752 L
+7223 4066 mt 7295 4066 L
+7259 4030 mt 7259 4102 L
+7261 3310 mt 7333 3310 L
+7297 3274 mt 7297 3346 L
+7299 3354 mt 7371 3354 L
+7335 3318 mt 7335 3390 L
+7337 4072 mt 7409 4072 L
+7373 4036 mt 7373 4108 L
+7375 4733 mt 7447 4733 L
+7411 4697 mt 7411 4769 L
+7413 4064 mt 7485 4064 L
+7449 4028 mt 7449 4100 L
+7452 4412 mt 7524 4412 L
+7488 4376 mt 7488 4448 L
+7490 3369 mt 7562 3369 L
+7526 3333 mt 7526 3405 L
+7528 4122 mt 7600 4122 L
+7564 4086 mt 7564 4158 L
+7566 3788 mt 7638 3788 L
+7602 3752 mt 7602 3824 L
+7604 4020 mt 7676 4020 L
+7640 3984 mt 7640 4056 L
+7642 4374 mt 7714 4374 L
+7678 4338 mt 7678 4410 L
+7680 2930 mt 7752 2930 L
+7716 2894 mt 7716 2966 L
+7719 3726 mt 7791 3726 L
+7755 3690 mt 7755 3762 L
+7757 3574 mt 7829 3574 L
+7793 3538 mt 7793 3610 L
+7795 2624 mt 7867 2624 L
+7831 2588 mt 7831 2660 L
+7833 2143 mt 7905 2143 L
+7869 2107 mt 7869 2179 L
+7871 3276 mt 7943 3276 L
+7907 3240 mt 7907 3312 L
+7909 2103 mt 7981 2103 L
+7945 2067 mt 7945 2139 L
+7948 1494 mt 8020 1494 L
+7984 1458 mt 7984 1530 L
+7986 1894 mt 8058 1894 L
+8022 1858 mt 8022 1930 L
+8024 2024 mt 8096 2024 L
+8060 1988 mt 8060 2060 L
+8062 2038 mt 8134 2038 L
+8098 2002 mt 8098 2074 L
+8100 1722 mt 8172 1722 L
+8136 1686 mt 8136 1758 L
+8138 1886 mt 8210 1886 L
+8174 1850 mt 8174 1922 L
+8176 2235 mt 8248 2235 L
+8212 2199 mt 8212 2271 L
+8215 1359 mt 8287 1359 L
+8251 1323 mt 8251 1395 L
+8253 2255 mt 8325 2255 L
+8289 2219 mt 8289 2291 L
+8291 3082 mt 8363 3082 L
+8327 3046 mt 8327 3118 L
+8329 2497 mt 8401 2497 L
+8365 2461 mt 8365 2533 L
+8367 2321 mt 8439 2321 L
+8403 2285 mt 8403 2357 L
+8405 2996 mt 8477 2996 L
+8441 2960 mt 8441 3032 L
+8444 3119 mt 8516 3119 L
+8480 3083 mt 8480 3155 L
+8482 3958 mt 8554 3958 L
+8518 3922 mt 8518 3994 L
+8520 2900 mt 8592 2900 L
+8556 2864 mt 8556 2936 L
+8558 4072 mt 8630 4072 L
+8594 4036 mt 8594 4108 L
+8596 4006 mt 8668 4006 L
+8632 3970 mt 8632 4042 L
+8634 3554 mt 8706 3554 L
+8670 3518 mt 8670 3590 L
+8672 4019 mt 8744 4019 L
+8708 3983 mt 8708 4055 L
+8711 4402 mt 8783 4402 L
+8747 4366 mt 8747 4438 L
+8749 4141 mt 8821 4141 L
+8785 4105 mt 8785 4177 L
+8787 4835 mt 8859 4835 L
+8823 4799 mt 8823 4871 L
+8825 3905 mt 8897 3905 L
+8861 3869 mt 8861 3941 L
+8863 3645 mt 8935 3645 L
+8899 3609 mt 8899 3681 L
+8901 3538 mt 8973 3538 L
+8937 3502 mt 8937 3574 L
+8940 4297 mt 9012 4297 L
+8976 4261 mt 8976 4333 L
+8978 2667 mt 9050 2667 L
+9014 2631 mt 9014 2703 L
+9016 3942 mt 9088 3942 L
+9052 3906 mt 9052 3978 L
+9054 2192 mt 9126 2192 L
+9090 2156 mt 9090 2228 L
+9092 3477 mt 9164 3477 L
+9128 3441 mt 9128 3513 L
+9130 1751 mt 9202 1751 L
+9166 1715 mt 9166 1787 L
+9168 2658 mt 9240 2658 L
+9204 2622 mt 9204 2694 L
+9207 2634 mt 9279 2634 L
+9243 2598 mt 9243 2670 L
+9245 1491 mt 9317 1491 L
+9281 1455 mt 9281 1527 L
+9283 1545 mt 9355 1545 L
+9319 1509 mt 9319 1581 L
+9321 2305 mt 9393 2305 L
+9357 2269 mt 9357 2341 L
+9359 2096 mt 9431 2096 L
+9395 2060 mt 9395 2132 L
+9397 1336 mt 9469 1336 L
+9433 1300 mt 9433 1372 L
+9436 2022 mt 9508 2022 L
+9472 1986 mt 9472 2058 L
+9474 2001 mt 9546 2001 L
+9510 1965 mt 9510 2037 L
+9512 1772 mt 9584 1772 L
+9548 1736 mt 9548 1808 L
+9550 2171 mt 9622 2171 L
+9586 2135 mt 9586 2207 L
+9588 3364 mt 9660 3364 L
+9624 3328 mt 9624 3400 L
+9626 2376 mt 9698 2376 L
+9662 2340 mt 9662 2412 L
+9664 2838 mt 9736 2838 L
+9700 2802 mt 9700 2874 L
+9703 2879 mt 9775 2879 L
+9739 2843 mt 9739 2915 L
+9741 3371 mt 9813 3371 L
+9777 3335 mt 9777 3407 L
+9779 4064 mt 9851 4064 L
+9815 4028 mt 9815 4100 L
+9817 3063 mt 9889 3063 L
+9853 3027 mt 9853 3099 L
+9855 4674 mt 9927 4674 L
+9891 4638 mt 9891 4710 L
+9893 3674 mt 9965 3674 L
+9929 3638 mt 9929 3710 L
+9932 4064 mt 10004 4064 L
+9968 4028 mt 9968 4100 L
+9970 4303 mt 10042 4303 L
+10006 4267 mt 10006 4339 L
+10008 3947 mt 10080 3947 L
+10044 3911 mt 10044 3983 L
+10046 4279 mt 10118 4279 L
+10082 4243 mt 10082 4315 L
+10084 4250 mt 10156 4250 L
+10120 4214 mt 10120 4286 L
+10122 3439 mt 10194 3439 L
+10158 3403 mt 10158 3475 L
+10160 4493 mt 10232 4493 L
+10196 4457 mt 10196 4529 L
+10199 3172 mt 10271 3172 L
+10235 3136 mt 10235 3208 L
+10237 4166 mt 10309 4166 L
+10273 4130 mt 10273 4202 L
+10275 3254 mt 10347 3254 L
+10311 3218 mt 10311 3290 L
+10313 2513 mt 10385 2513 L
+10349 2477 mt 10349 2549 L
+10351 2543 mt 10423 2543 L
+10387 2507 mt 10387 2579 L
+10389 2935 mt 10461 2935 L
+10425 2899 mt 10425 2971 L
+10428 2843 mt 10500 2843 L
+10464 2807 mt 10464 2879 L
+10466 1871 mt 10538 1871 L
+10502 1835 mt 10502 1907 L
+10504 1922 mt 10576 1922 L
+10540 1886 mt 10540 1958 L
+10542 1608 mt 10614 1608 L
+10578 1572 mt 10578 1644 L
+10580 2377 mt 10652 2377 L
+10616 2341 mt 10616 2413 L
+gs 1536 467 9158 5071 rc
+gr
+
+0 sg
+5893 5825 mt 
+(Time \(s\)) s
+1149 3525 mt  -90 rotate
+(Devivative of Signal) s
+90 rotate
+
+end %%Color Dict
+
+eplot
+%%EndObject
+
+epage
+end
+
+showpage
+
+%%Trailer
+%%EOF
