@@ -6,14 +6,14 @@ Using the definition of a derivative,
 \begin{equation} f'(x) = \lim_{h \to 0} \frac{f(x+h)-f(x)}{h} \end{equation}
 one can graphically interpret the derivative as the slope of the tangent line at point x. As such, we can numerically calculate the derivative from a set of data points by calculating the slope between adjacent points.
 \begin{equation} f'(x) \approx \frac{f(x_{i+1})-f(x_i)}{x_{i+1}-x_{i}}  \end{equation}
-We can then iterate this process from the first data point to the second to last data point. 
-%For the last data point, the same process is applied, however this results in a duplicate to the previous point, and thus the last calculated derivative should hold less weight. The reason why it is not omitted entirely is to allow for the repeated application of the derivative function without loss of data points.
+We can then iterate this process from the first data point to the second to last data point, to obtain an accurate derivative.
+%For the last data point, the same process is applied, however this results in a duplicate to the previous point, and thus the last calculated derivative should hold less weight in comparison. The reason why it is not omitted entirely is to allow for the repeated application of the derivative function without loss of data points.
 
 When calculating the integral numerically, we start with the fact the graphically integration represents the area under a curve. Using the discrete equivalent of integration, summation, we can then sum the area under adjacent points to find the integral. For good approximation, we calculate the area below two points as a trapezoid.
 \begin{equation} \int^b_a f(x)dx \approx (b-a) \frac{f(a)+f(b)}{2}  \end{equation}
 Thus, the integral between any two points can be represented as
 \begin{equation} \int_{x_1}^{x_N} f(x)dx \approx \sum_{i=1}^{N-1} (x_{i+1}-x_i) \frac{f(x_{i+1})+f(x_i)}{2}  \end{equation}
 
-Additionally, as the derivative and integral have been broken down into simple arithmetic operations, error is propagated in the same manner.
+Note that each time a derivative or integration is called, a set containing one less data point is returned. This is because two adjacent points are needed to calculate each iteration for both the derivative and integral, so in the end, one of the boundary points will be lost. We arbitrarily started our iterations at the first point in the data, resulting in the loss of the last point. Additionally, as the derivative and integral have been broken down into simple arithmetic operations, error is propagated in the same manner.
 
 \end{document}
