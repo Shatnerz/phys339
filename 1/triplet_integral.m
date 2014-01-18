@@ -10,10 +10,15 @@
 %   2: Dependent variable
 %   3: Error on dependent variable.
 function [data_out] =  triplet_integral (data_in)
+
 [rows,cols] = size (data_in);		% get dimensions of data
-if (cols ~= 3)				% make sure data is triplets
+
+% make sure data is triplets
+if (cols ~= 3)
   error ('triplet_plot: data is not triplets (%d columns, expected 3)',cols)
 end
+%sort so x is in increasing order
+data_in = sortrows(data_in, 1);
 
 %Explode data
 x_in = data_in(:,1)';

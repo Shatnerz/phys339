@@ -9,11 +9,17 @@
 %   1: Independent variable
 %   2: Dependent variable
 %   3: Error on dependent variable.
+
 function [data_out] =  triplet_derivative (data_in)
+
 [rows,cols] = size (data_in);		% get dimensions of data
-if (cols ~= 3)				% make sure data is triplets
+
+% make sure data is triplets
+if (cols ~= 3)
   error ('triplet_plot: data is not triplets (%d columns, expected 3)',cols)
 end
+%sort so x is in increasing order
+data_in = sortrows(data_in, 1);
 
 %Explode data
 x_in = data_in(:,1)';
@@ -38,6 +44,6 @@ y_out= dy./dx;
 %Propagate error
 e_out = sqrt(e_in_right.^2+e_in_left.^2)./dx;
 
-% Assemble vectro in triplet form
+% Assemble vector in triplet form
 
 data_out = cat (2,x_out',y_out',e_out');
